@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: himil;
+            src: url();
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend>
+
+            <label for="name">Name :</label>
+            <input type="text" placeholder="Enter Your Name" id="name" required>
+            <br><br>
+            <label for="email">Email : </label>
+            <input type="email" placeholder="Enter Email" id="email" required>
+            <br><br>
+            <label for="pass">Password : </label>
+            <input type="password" placeholder="Enter Password" id="pass" required>
+            <br><br>
+            <label for="tel">Contact : </label>
+            <input type="tel" placeholder="Enter Contact No" id="tel" required>
+            <br><br>
+            <label for="dob">DOB : </label>
+            <input type="date" id="dob">
+            <br><br>
+            <label for="color">Color : </label>
+            <input type="color">
+            <br><br>
+            <label for="">Range : </label>
+            <input type="range">
+            <br><br>
+            <label for="">Address : </label>
+            <textarea cols="30" rows="5"></textarea>
+            <br><br>
+            <label for="">Qualifications :</label>
+
+            <input type="checkbox" id="10th" checked>
+            <label for="10th">10th</label>
+
+            <input type="checkbox" id="12th" checked>
+            <label for="12th">12th</label>
+
+            <input type="checkbox" id="bca">
+            <label for="bca">BCA</label>
+
+            <input type="checkbox" id="mca">
+            <label for="mca">MCA</label>
+
+            <br><br>
+
+            <label for="">Gender : </label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male </label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+
+            <br><br>
+
+            <label for="">Country : </label>
+
+            <select>
+                <option value="">---Select---</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Nepal" selected>Nepal</option>
+                <option value="Australia">Australia</option>
+                <option value="Mexico">Mexico</option>
+            </select>
+
+            <br><br>
+
+            <label for="">Add Passport Size Photo : </label>
+            <input type="file" multiple>
+
+            <br><br>
+
+            <input type="submit" value="Save Data">
+            <button type="submit">Save Data</button>
+
+            <input type="reset">
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
